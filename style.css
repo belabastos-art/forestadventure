@@ -45,10 +45,6 @@ body {
     width: 100%;
 }
 
-.btn:hover {
-    background: rgba(44, 255, 44, 0.1);
-}
-
 .ending {
     color: rgb(254, 84, 254);
     font-style: italic;
