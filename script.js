@@ -5,6 +5,7 @@ function playSound() {
     beep.connect(audio.destination);
     beep.start();
     beep.stop(audio.currentTime + 0.2);
+}
     
 function goToScene2() {
     playSound();
