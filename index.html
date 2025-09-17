@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Magical Forest Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-box">
+        <div class="images">
+            <img id="img1" src="img1.png" alt="Forest">
+            <img id="img2" src="img2.png" alt="Capybara" class="hidden">
+        </div>
+
+        <div id="scene1" class="scene">
+            <p class="story">
+                You're walking through a dense magical forest when suddenly you hear mysterious sounds coming from behind some bushes... ✨
+            </p>
+            <button class="btn" onclick="goToScene2()">investigate the sounds</button>
+            <button class="btn">quickly run away</button>
+        </div>
+
+        <div id="scene2" class="scene hidden">
+            <p class="story">
+                You carefully peek through the bushes and discover the most adorable capybara you've ever seen! 💖<br><br>
+                It has tiny flowers in its fur and looks absolutely cute. <em>The little creature notices you and tilts its head in your direction...</em> ✨
+            </p>
+            <button class="btn" onclick="goToScene3()">feed it berries</button>
+            <button class="btn">wave goodbye and leave</button>
+        </div>
+
+        <div id="scene3" class="scene hidden">
+            <p class="story">
+                💖 YAY! 💖<br>
+                The capybara squeaks with joy as you offer it some sweet treats! The capybara approaches you, and you both spend the afternoon playing, making flower crowns, and sharing magical forest treats.<br><br>
+                <span class="ending">*You've gained a lifelong friend and became a protector of the enchanted forest!✨</span>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
